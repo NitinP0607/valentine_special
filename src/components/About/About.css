@@ -79,6 +79,8 @@
 }
 .about-bio {
   display: flex;
+  justify-content: center;
+  align-items: center;
  
   gap: 60px;
   padding: 0 5%;
@@ -162,5 +164,13 @@
   .about-bio-left h3::after {
     left: 50%;
     transform: translateX(-50%);
+  }
+  .about-bio-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-bio-right img{
+    width: 800px;
   }
 }
