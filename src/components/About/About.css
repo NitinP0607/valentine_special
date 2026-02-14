@@ -155,6 +155,7 @@
   .about-bio {
     flex-direction: column;
     text-align: center;
+    gap: 0px;
   }
 
   .about-bio-left {
@@ -174,6 +175,9 @@
   }
   .about-bios h2{
     font-size: 1.5rem;
+  }
+  .about-bio-right img{
+    padding-left: 50px;
   }
 }
 @media (max-width: 820px) and (min-width: 769px) {
